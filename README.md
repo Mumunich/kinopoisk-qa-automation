@@ -62,6 +62,7 @@ python -m pytest --alluredir=allure-results
 allure serve allure-results
 ```
 ## Структура проекта
+```
 kinopoisk-qa-automation/
 ├── tests/ → Тестовые модули
 │ ├── test_api.py → API‑тесты (7+ сценариев)
@@ -81,6 +82,7 @@ kinopoisk-qa-automation/
 ├── .env.example → Шаблон .env
 ├── pytest.ini → Конфигурация pytest
 └── README.md → Документация проекта
+```
 
 # Маркеры pytest
 @pytest.mark.api - API тесты
