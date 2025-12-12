@@ -24,6 +24,7 @@ desktop.ini
 
 # === Файлы окружения (НИКОГДА в репозиторий!) ===
 .env
+.env.local
 *.key
 *.pem
 credentials.py
