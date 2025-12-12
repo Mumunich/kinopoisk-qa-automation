@@ -1,6 +1,9 @@
 # kinopoisk-qa-automation
 Automating the UI and API testing of the kinopoisk website.
 
+## Финальная работа по ручному тестированию
+[Тестирование сайта «Кинопоиск»](https://qa-skypro.yonote.ru/doc/testirovanie-sajta-kinopoisk-TmUmaAkvkf)
+
 ## 📋 Содержание
 - [Требования]
 - [Установка]
