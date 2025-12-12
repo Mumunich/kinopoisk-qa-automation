@@ -85,8 +85,10 @@ kinopoisk-qa-automation/
 ```
 
 # Маркеры pytest
+```
 @pytest.mark.api - API тесты
 @pytest.mark.ui - UI тесты
 @pytest.mark.smoke - смоук тесты
 @pytest.mark.positive - позитивные сценарии
 @pytest.mark.negative - негативные сценарии
+```
