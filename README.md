@@ -63,22 +63,24 @@ allure serve allure-results
 ```
 ## Структура проекта
 kinopoisk-qa-automation/
-├── tests/                    # Тестовые модули
-│   ├── test_api.py          # API тесты (7+ тестов)
-│   └── test_ui.py           # UI тесты (5+ тестов)
-├── pages/                    # Page Objects
-│   ├── base_page.py         # Базовая страница
-│   ├── main_page.py         # Главная страница
-│   ├── search_page.py       # Страница поиска
-│   └── film_page.py         # Страница фильма
-├── config/                   # Конфигурация
-│   └── settings.py          # Настройки проекта
-├── reports/                 # Отчеты тестов
-├── requirements.txt         # Зависимости Python
-├── .env                     # Переменные окружения
-├── .env.example            # Пример файла окружения
-├── pytest.ini              # Конфигурация pytest
-└── README.md               # Документация
+├── tests/ → Тестовые модули
+│ ├── test_api.py → API‑тесты (7+ сценариев)
+│ └── test_ui.py → UI‑тесты (5+ сценариев)
+│
+├── pages/ → Page Object Model
+│ ├── base_page.py → Базовая страница (общие методы)
+│ ├── main_page.py → Главная страница
+│ ├── search_page.py → Страница поиска
+│ └── film_page.py → Страница фильма
+│
+├── config/ → Конфигурационные файлы
+│ └── settings.py → Основные настройки проекта
+│
+├── requirements.txt → Зависимости Python (pip)
+├── .env → Переменные окружения
+├── .env.example → Шаблон .env
+├── pytest.ini → Конфигурация pytest
+└── README.md → Документация проекта
 
 # Маркеры pytest
 @pytest.mark.api - API тесты
